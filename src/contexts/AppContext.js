@@ -7,7 +7,7 @@ export const AppReducer = (state, action)=>{
         case 'ADD_EXPENSE':
             return{
                 ...state,
-                expenses:[...state.expense, action.payload]
+                expenses:[...state.expenses, action.payload]
             }
         case 'DELETE_EXPENSE':
             return{
