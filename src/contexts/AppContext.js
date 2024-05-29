@@ -30,9 +30,9 @@ export const AppReducer = (state, action)=>{
 const initialState = {
     budget: 30000,
     expenses: [
-        {id:crypto.randomUUID(), name: '밥먹기', const: 1000},
-        {id:crypto.randomUUID(), name: '카드비', const: 3000},
-        {id:crypto.randomUUID(), name: '교통비', const: 7000}
+        {id:crypto.randomUUID(), name: '밥먹기', cost: 1000},
+        {id:crypto.randomUUID(), name: '카드비', cost: 3000},
+        {id:crypto.randomUUID(), name: '교통비', cost: 7000}
     ]
 }
 
